@@ -78,7 +78,7 @@
 
     window.onload = function () {
 
-      loadJSON("http://localhost:8000/bitcoin-history.json", function (response) {
+      loadJSON("bitcoin-history.json", function (response) {
         var timepoints = JSON.parse(response);
 
         var timeline = document.getElementById("timeline-bitcoin-history")
