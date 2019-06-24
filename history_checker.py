@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-""" This script checks the `bitcoin-history.json` file for: 
+""" This script checks the `bitcoin-history.json` file for correct: 
   - id (not empty, valid format)
   - type (is valid)
   - title (not empty)
