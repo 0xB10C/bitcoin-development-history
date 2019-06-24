@@ -6,15 +6,11 @@
   - title (not empty)
   - paragraps (no empty paragraphs)
   - links (no empty label or link)
-
 """ 
 
 import json
-import pprint
 
 VALID_TYPES = ["release", "other", "post", "bug", "company"]
-
-
 
 def load_file(filename):
   with open(filename) as json_file:  
