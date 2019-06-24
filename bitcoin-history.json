@@ -1,5 +1,7 @@
 [
   {
+    "id": "2007-post-satoshi-starts",
+    "type": "post",
     "title": "Early 2007: Satoshi starts working on bitcoin",
     "paragraphs": [
       "Satoshi Nakamoto starts writing code for Bitcoin. This is based on a post to the Cryptography mailing list where Satoshi wrote on Nov 17th, 2008:",
@@ -13,7 +15,9 @@
     ]
   },
   {
-    "title": "Nov 1st, 2008: Bitcoin paper published",
+    "id": "2008-post-bitcoin-paper",
+    "type": "post",
+    "title": "1 November 2008: Bitcoin paper published",
     "paragraphs": [
       "Satoshi Nakamoto announces Bitcoin on the Cryptography mailing list:",
       "»I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.«",
@@ -30,8 +34,10 @@
       }
     ]
   },
-  {
-    "title": "Between Jan 3rd and 9th, 2009: Genesis Block minted",
+  { 
+    "id": "2009-other-genesis-block",
+    "type": "other",
+    "title": "Between 3rd and 9th January 2009: Genesis Block minted",
     "paragraphs": [
       "The Genesis block is mined with a timestamp of Jan 9th.",
       "The coinbase containing the famouse words: »The Times 03/Jan/2009 Chancellor on brink of second bailout for banks«."
@@ -47,8 +53,10 @@
       }
     ]
   },
-  {
-    "title": "Jan 9th, 2009: Bitcoin v0.1 is announced",
+  { 
+    "id": "2009-release-0-1-0",
+    "type": "release",
+    "title": "9 January 2009: Bitcoin v0.1 is announced",
     "paragraphs": [
       "Satoshi Nakamoto writes on the cryptography mailing list:",
       "»Announcing the first release of Bitcoin, a new electronic cash system that uses a peer-to-peer network to prevent double-spending. It's completely decentralized with no server or central authority."
@@ -60,9 +68,10 @@
       }
     ]
   },{
-    "title": "Dec 16th, 2009: Bitcoin v0.2 is released",
+    "id": "2009-release-0-2-0",
+    "type": "release",
+    "title": "16 December 2009: Bitcoin v0.2.0 released",
     "paragraphs": [
-      "",
       "A user called Martti Malmi (sirius-m) adds initial support for Linux. Other new features include mining on multiple CPU cores and initial tor proxy support."
     ],
       "links": [
@@ -72,7 +81,9 @@
       }
     ]
   },{
-    "title": "July 6, 2010: Bitcoin v0.3 is released",
+    "id": "2010-release-0-3-0",
+    "type": "release",
+    "title": "6 July 2010: Bitcoin v0.3.0 released",
     "paragraphs": [
       "Laszlo Hanyecz (Bitcoin pizza guy) adds support for macOS. Other new features include the JSON-RPC interface and a new daemon mode. Users contribute GUI translations into German, Dutch and Italian."
     ],
@@ -83,7 +94,9 @@
       }
     ]
   },{
-    "title": "July 15, 2010: Bitcoin v0.3.1 released (bugfix)",
+    "id": "2010-release-0-3-1",
+    "type": "release",
+    "title": "15 July 2010: Bitcoin v0.3.1 released (bugfix)",
     "paragraphs": [
       "Miscellaneous bugs get fixed. Gavin Andresen starts contributing."
     ],
@@ -94,7 +107,9 @@
       }
     ]
   },{
-    "title": "July 17, 2010: Bitcoin v0.3.2 released",
+    "id": "2010-release-0-3-2",
+    "type": "release",
+    "title": "17 July 2010: Bitcoin v0.3.2 released",
     "paragraphs": [
       "Satoshi adds checkpoints as a security safeguard that locks a block height to a specific hash. He writes: ",
       "»I'll probably put a checkpoint in each version from now on.  Once the software has settled what the widely accepted block chain is, there's no point in leaving open the unwanted non-zero possibility of revision months later.«"
@@ -110,7 +125,9 @@
       }
     ]
   },{
-    "title": "July 25, 2010: Bitcoin v0.3.3 released",
+    "id": "2010-release-0-3-3",
+    "type": "release",
+    "title": "25 July 2010: Bitcoin v0.3.3 released",
     "paragraphs": [
       "This release includes the first consensus change.",
       "The Bitcoin software now follows the chain with the most accumulated work. Prior to that it followed the longest chain - the chain with the most blocks."
@@ -126,13 +143,17 @@
       }
     ]
   },{
+    "id": "2010-release-multipile-0-3-xx",
+    "type": "release",
     "title": "Throughout the sommer of 2010",
     "paragraphs": [
       "Various Bitcoin v0.3.xx versions are released."
     ],
     "links": []
   },{
-    "title": "August 15, 2010: Critical overflow bug fixed",
+    "id": "2010-bug-overflow-bug",
+    "type": "bug",
+    "title": "15 August 2010: Critical overflow bug fixed",
     "paragraphs": [
       "Satoshi pushes out fix in v0.3.9(ish) and tells users and miners to re-org the block with the overflowed transaction out of history."
     ],
@@ -143,7 +164,9 @@
       }
     ]
   },{
-    "title": "August 22, 2010: Alert system introduced",
+    "id": "2010-post-alert-system",
+    "type": "post",
+    "title": "22 August 2010: Alert system introduced",
     "paragraphs": [
       "Satoshi starts working on an alert system which is added in v0.3.11. He writes:",
       "»I've been working on writing the alert system.  Alerts are broadcast through the network and apply to a range of version numbers.  Alert messages are signed with a private key that only I have.«",
@@ -157,7 +180,9 @@
       }
     ]
   },{
-    "title": "December 12, 2010: Final post from Satoshi",
+    "id": "2010-post-final",
+    "type": "post",
+    "title": "12 December 2010: Final post from Satoshi",
     "paragraphs": [
       "Final post from Satoshi to bitcointalk.org. He adds some DoS limits and removes the previously introduced alert system.",
       "»There's more work to do on DoS, but I'm doing a quick build of what I have so far in case it's needed, before venturing into more complex ideas.  The build for this is version 0.3.19.«"
@@ -169,7 +194,9 @@
       }
     ]
   },{
-    "title": "December 2010: Development moves to GitHub",
+    "id": "2010-other-moved-to-github",
+    "type": "other",
+    "title": "19 December 2010: Development moves to GitHub",
     "paragraphs": [
       "Active development and issue tracking of Bitcoin moves to GitHub."
     ],
@@ -180,7 +207,9 @@
       }
     ]
   },{
-    "title": "April 23, 2011: Final contact with Satoshi",
+    "id": "2011-other-last-contact-satoshi",
+    "type": "other",
+    "title": "23 April 2011: Last contact with Satoshi",
     "paragraphs": [
       "Alleged final email from Satoshi to Mike Hearn:",
       "»I've moved on to other things.  It's in good hands with Gavin and everyone.«"
@@ -192,6 +221,8 @@
       }
     ]
   },{
+    "id": "2011-other-new-contributors",
+    "type": "other",
     "title": "March-June 2011: New contributors join",
     "paragraphs": [
       "New contributors start working on the project. Some of them are for example TheBlueMatt (March 3), sipa (March 12), laanwj (May 15) and gmaxwell (June 18). Their first pull requests are listed below."
@@ -215,7 +246,9 @@
       }
     ]
   },{
-    "title": "19th Aug, 2011: First BIP",
+    "id": "2011-other-first-bip",
+    "type": "other",
+    "title": "19 August 2011: First BIP",
     "paragraphs": [
       "With 'BIP 1: BIP Purpose and Guidelines' the first Bitcoin Improvement Proposal is created."
     ],
@@ -226,7 +259,9 @@
       }
     ]
   },{
-    "title": "September 23, 2011: Bitcoin v0.4 released",
+    "id": "2011-release-0-4-0",
+    "type": "release",
+    "title": "23 September 2011: Bitcoin v0.4 released",
     "paragraphs": [
       "Version v0.4. is released with the main feature being wallet encryption."
     ],
@@ -237,7 +272,9 @@
       }
     ]
   },{
-    "title": "21 Nov, 2011: Bitcoin-QT v0.5. released",
+    "id": "2011-release-0-5-0",
+    "type": "release",
+    "title": "21 November 2011: Bitcoin-QT v0.5. released",
     "paragraphs": [
       "Features are a the new qt GUI and a major bug fix for the wallet encryption (CVE-2011-4447)."
     ],
@@ -251,7 +288,9 @@
       }
     ]
   },{
-    "title": "Nov 2011 - April 2012: Work on P2SH and other",
+    "id": "2011-other-p2sh",
+    "type": "other",
+    "title": "November 2011 - April 2012: Work on P2SH and other",
     "paragraphs": [
       "Work on various proposals (OP_EVAL/P2SH/OP_CHV) to allow the receiver of a transaction to specify the script needed to spend it.",
       "P2SH choosen to be implemented in Bitcoin-Qt v0.5.4. Both other proposals are discarded." 
@@ -279,29 +318,35 @@
       }
     ]
   },{
+    "id": "2012-release-0-6-0",
+    "type": "release",
     "title": "30 March 2012: Bitcoin-QT v0.6 released",
     "paragraphs": [
       "Features include are for example QR codes for addresses, a implementaion of BIP30 (a security fix for an attack involving duplicate coinbase transactions) and fixes for memory related denial-of-service attacks."
     ],
     "links": [
       {
-        "label": "Release notes",
+        "label": "release notes",
         "link": "https://bitcoin.org/en/release/v0.6.0"
       }
     ]
   },{
-    "title": "17 Sep, 2012: Bitcoin-QT v0.7 released",
+    "id": "2012-release-0-7-0",
+    "type": "release",
+    "title": "17 September 2012: Bitcoin-QT v0.7 released",
     "paragraphs": [
       "Includes implemention of BIP 22, BIP 34 and BIP 35 and additonally a lot of changes in the GUI and for the networking RPC code."
     ],
     "links": [
       {
-        "label": "change notes",
+        "label": "release notes",
         "link": "https://bitcoin.org/en/release/v0.7.0"
       }
     ]
   },{
-    "title": "27 September, 2012: Bitcoin Foundation announced",
+    "id": "2012-other-bitcoin-foundation",
+    "type": "other",
+    "title": "27 September 2012: Bitcoin Foundation announced",
     "paragraphs": [
       "Gavin Andresen announces the Bitcoin Foundation. People fear that the foundation will lead to a centralization of Bitcoin."
     ],
@@ -312,7 +357,9 @@
       }
     ]
   },{
-    "title": "19 Feb 2013: Bitcoin-QT v0.8 released",
+    "id": "2013-release-0-8-0",
+    "type": "release",
+    "title": "19 February 2013: Bitcoin-QT v0.8 released",
     "paragraphs": [
       "This release migrates the blockchain storage from BerkleyDB to LevelDB. Additionally the UTXO-set or chainstate is seperated from the blocks by a functionallity called ultraprune developed by sipa (Pieter Wuillie)."
     ],
@@ -323,7 +370,9 @@
       }
     ]
   },{
-    "title": "11th March, 2013: Unexpected hardfork",
+    "id": "2013-bug-hardfork",
+    "type": "bug",
+    "title": "11 March 2013: Unexpected hardfork",
     "paragraphs": [
       "A unexpected hardfork occured where pre-v0.8 nodes forked of v0.8 nodes. "
     ],
@@ -337,7 +386,9 @@
       }
     ]
   },{
-    "title": "12 Dec 2013: Rebranding to Bitcoin Core",
+    "id": "2013-other-rebranding-to-core",
+    "type": "other",
+    "title": "12 December 2013: Rebranding to Bitcoin Core",
     "paragraphs": [
       "The Bitcoin-Qt software is rebranded to Bitcoin Core."
     ],
@@ -348,6 +399,8 @@
       }
     ]
   },{
+    "id": "2014-release-0-9-0",
+    "type": "release",
     "title": "19 March 2014: Bitcoin Core v0.9 released",
     "paragraphs": [
       "New features include OP_RETURN as a way to include data in blockchain while marking the UTXOs as unspendable. Additionally autotools is now used as the build system, bitcoin-cli is introduced as a RPC-client to communicate to the bitcoind deamon."
@@ -359,6 +412,8 @@
       }
     ]
   },{
+    "id": "2014-company-blockstream",
+    "type": "company",
     "title": "23 October 2014: Blockstream is founded",
     "paragraphs": [
       "Adam Back, Matt Corallo, Greg Maxwell, Pieter Wuille et al. found Blockstream and release their sidechains whitepaper."
@@ -370,7 +425,7 @@
       }
     ]
   },{
-    "id": "release-0-10-0",
+    "id": "2015-release-0-10-0",
     "type":"release",
     "title": "16 Febuary 2015: Bitcoin Core v0.10.0 released.",
     "paragraphs": [
@@ -383,7 +438,7 @@
       }
     ]
   },{
-    "id": "2015-mit-dci",
+    "id": "2015-other-mit-dci",
     "type":"other",
     "title": "15 April 2015: MIT DCI founded",
     "paragraphs": [
@@ -396,7 +451,7 @@
       }
     ]
   },{
-    "id": "release-0-11-0",
+    "id": "2015-release-0-11-0",
     "type":"release",
     "title": "12 July 2015: Bitcoin Core v0.11.0 released",
     "paragraphs": [
@@ -409,7 +464,7 @@
       }
     ]
   },{
-    "id": "2016-lightning-whitepaper",
+    "id": "2016-other-lightning-whitepaper",
     "type":"other",
     "title": "14 January 2016: Lightning whitepaper released",
     "paragraphs": [
@@ -423,7 +478,7 @@
       }
     ]
   },{
-    "id": "2016-bip-2",
+    "id": "2016-other-bip-2",
     "type":"other",
     "title": "3 Febrary 2016: BIP 2 created",
     "paragraphs": [
@@ -436,7 +491,7 @@
       }
     ]
   },{
-    "id": "release-0-12-0",
+    "id": "2016-release-0-12-0",
     "type":"release",
     "title": "23 February 2016: Bitcoin Core v0.12.0 released.",
     "paragraphs": [
@@ -488,7 +543,7 @@
       }
     ]
   },{
-    "id": "2016-alert-system-retired",
+    "id": "2016-other-alert-system-retired",
     "type":"other",
     "title": "1 November 2016: Alert System Retirement",
     "paragraphs": [
@@ -540,7 +595,7 @@
       }
     ]
   },{
-    "id": "2017-segwit-activated",
+    "id": "2017-other-segwit-activated",
     "type":"other",
     "title": "24 August 2017: SegWit activated",
     "paragraphs": [
@@ -573,11 +628,11 @@
       }
     ]
   },{
-    "id": "",
-    "type":"",
+    "id": "2019-release-0-18-0",
+    "type":"release",
     "title": "2 May 2019: Bitcoin Core v0.18.0 released",
     "paragraphs": [
-      ""
+      "This release includes a lot of new features and small changes."
     ],
     "links": [
       {
@@ -588,7 +643,7 @@
   },{
     "id": "2019-post-taproot",
     "type":"post",
-    "title": "6 May 2019: Taproot proposed ",
+    "title": "6 May 2019: Taproot proposed",
     "paragraphs": [
       "Pieter Wuille proposes taproot which brings improvements to privacy, efficiency, and flexibility of Bitcoin smart contracts."
     ],
@@ -600,4 +655,3 @@
     ]
   }
 ]
-

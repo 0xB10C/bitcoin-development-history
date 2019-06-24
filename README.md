@@ -9,9 +9,12 @@ Example: here
 
 Based on a talk John Newberry gave at x
 
-Format:
+## Format:
 
 bitcoin-history.json contains a sorted list of points on the timeline. Older events appear first: sorted by time ascending?
+
+id: start with the year
+
 
 ```json
 {
