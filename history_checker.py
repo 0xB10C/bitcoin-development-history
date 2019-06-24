@@ -55,7 +55,6 @@ if __name__ == '__main__':
     data = load_file('bitcoin-history.json')
     
     for timepoint in data:
-      print(timepoint["title"])
       check_timepoint_id(timepoint)
       check_timepoint_type(timepoint)
       check_timepoint_title(timepoint)
