@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="0xb10c">
+  <meta name="description" content="A example timeline for the history of bitcoin project.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <article>
+    <h1>Example timeline for the <a>history of bitcoin</a> project</h1>
+    <div class="timeline" id="timeline-bitcoin-history"></div>
+  </article>
+
+  <script>
+    function loadJSON(url, callback) {
+
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open('GET', url, true);
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+          // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+          callback(xobj.responseText);
+        }
+      };
+      xobj.send(null);
+    }
+
+    function createTimepointElement(timepoint) {
+      var timepointDiv = document.createElement("div");
+      timepointDiv.classList.add("timepoint");
+      side = timepointIndex % 2 == 0 ? "left" : "right";
+      timepointDiv.classList.add(side);
+
+      var contentDiv = document.createElement("div");
+      contentDiv.classList.add("content");
+
+      var titleH3 = document.createElement("h3");
+      var titleText = document.createTextNode(timepoint.title);
+      titleH3.appendChild(titleText);
+      contentDiv.append(titleH3);
+
+      for (paragraphIndex in timepoint.paragraphs) {
+        var paragraph = document.createElement("p");
+        var text = document.createTextNode(timepoint.paragraphs[paragraphIndex]);
+
+        paragraph.appendChild(text);
+        contentDiv.appendChild(paragraph);
+      }
+
+      for (linkIndex in timepoint.links) {
+        var link = timepoint.links[linkIndex]
+
+        if(linkIndex > 0){ // add seperator
+          var seperator = document.createElement("span");
+          var septext = document.createTextNode(",  ");
+          seperator.appendChild(septext)
+          contentDiv.appendChild(seperator);
+        }
+
+        var anchor = document.createElement("a");
+        var label = document.createTextNode(link.label);
+        anchor.appendChild(label)
+        anchor.href = link.link;
+
+        contentDiv.appendChild(anchor);
+      }
+
+      timepointDiv.append(contentDiv);
+      return timepointDiv;
+    }
+
+
+    window.onload = function () {
+
+      loadJSON("http://localhost:8000/bitcoin-history.json", function (response) {
+        var timepoints = JSON.parse(response);
+
+        var timeline = document.getElementById("timeline-bitcoin-history")
+
+        for (timepointIndex in timepoints) {
+          timepoint = timepoints[timepointIndex]
+          timepointDiv = createTimepointElement(timepoint)
+          timeline.appendChild(timepointDiv);
+        }
+      });
+    }
+  </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+
+    .timeline {
+      position: relative;
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: #dedede;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: 0px;
+      border-radius: 3px;
+    }
+
+    .timepoint {
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+
+    .timepoint.left {
+      padding: 0px 40px 10px 0px;
+      left: 0;
+    }
+
+    .timepoint.right {
+      padding: 0px 0px 10px 40px;
+      left: 50%;
+    }
+
+    .timepoint h3 {
+      margin: 0;
+    }
+
+    /* The circles on the timeline */
+    .timepoint::after {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      right: -15px;
+      background-color: #999999;
+      border: 4px solid #999999;
+      top: 23px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    /* Fix the circle for timepoints on the right side */
+    .right::after {
+      left: -7.5px;
+    }
+
+    /* Add arrows to the left timepoint (pointing right) */
+    .left::before {
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index: 1;
+      right: 30px;
+      border: medium solid gray;
+      border-width: 10px 0 10px 10px;
+      border-color: transparent transparent transparent #efefef;
+    }
+
+    /* Add arrows to the right timepoint (pointing left) */
+    .right::before {
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index: 1;
+      left: 30px;
+      border: medium solid gray;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent #efefef transparent transparent;
+    }
+
+    /* The actual content */
+    .content {
+      padding: 15px 20px;
+      background-color: #efefef;
+      position: relative;
+      border-radius: 6px;
+    }
+  </style>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
