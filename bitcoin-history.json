@@ -44,7 +44,7 @@
     ],
     "links": [
       {
-        "label": "blockexplorer",
+        "label": "on explorer",
         "link": "https://blockstream.info/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"
       },
       {
@@ -412,9 +412,18 @@
       }
     ]
   },{
+    "id": "2014-company-chaincode",
+    "type": "company",
+    "title": "Sometime in 2014: Chaincode Labs funded",
+    "paragraphs": [
+      "Alex Morcos and Suhas Daftuar found Chiancode Labs in 2014 to create a place for engineers and scientists to support the development of decentralized digital currencies and further our collective understanding of how such technologies can work."
+    ],
+    "links": [
+    ]
+  },{
     "id": "2014-company-blockstream",
     "type": "company",
-    "title": "23th October 2014: Blockstream is founded",
+    "title": "23th October 2014: Blockstream founded",
     "paragraphs": [
       "Adam Back, Matt Corallo, Greg Maxwell, Pieter Wuille et al. found Blockstream and release their sidechains whitepaper."
     ],
