@@ -155,7 +155,7 @@
     "type": "bug",
     "title": "15th August 2010: Critical overflow bug fixed",
     "paragraphs": [
-      "Satoshi pushes out fix in v0.3.9(ish) and tells users and miners to re-org the block with the overflowed transaction out of history."
+      "Satoshi pushes out a fix in v0.3.9(ish) and tells users and miners to re-org the block with the overflowed transaction out of history."
     ],
     "links": [
       {
@@ -416,7 +416,7 @@
     "type": "company",
     "title": "Sometime in 2014: Chaincode Labs funded",
     "paragraphs": [
-      "Alex Morcos and Suhas Daftuar found Chiancode Labs in 2014 to create a place for engineers and scientists to support the development of decentralized digital currencies and further our collective understanding of how such technologies can work."
+      "Alex Morcos and Suhas Daftuar found Chiancode Labs in 2014 to create a place for engineers and scientists to support the development of decentralized digital currencies."
     ],
     "links": [
     ]
@@ -429,7 +429,7 @@
     ],
     "links": [
       {
-        "label": "'Why We Founded Blockstream' on blockstream.com",
+        "label": "Why We Founded Blockstream",
         "link": "https://blockstream.com/2014/10/23/en-why-we-are-co-founders-of-blockstream/"
       }
     ]
