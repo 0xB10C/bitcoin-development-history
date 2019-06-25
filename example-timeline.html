@@ -34,15 +34,27 @@
     function createTimepointElement(timepoint) {
       var timepointDiv = document.createElement("div");
       timepointDiv.classList.add("timepoint");
+      timepointDiv.id = timepoint.id;
       side = timepointIndex % 2 == 0 ? "left" : "right";
       timepointDiv.classList.add(side);
 
       var contentDiv = document.createElement("div");
       contentDiv.classList.add("content");
+      contentDiv.classList.add("type-" + timepoint.type);
 
       var titleH3 = document.createElement("h3");
       var titleText = document.createTextNode(timepoint.title);
       titleH3.appendChild(titleText);
+
+      var linkSmall = document.createElement("small")
+      var linkAnchor = document.createElement("a");
+      var linkText = document.createTextNode(" 🔗");
+      linkAnchor.classList.add("timepoint-link")
+      linkAnchor.href = "#" + timepoint.id;
+      linkAnchor.appendChild(linkText);
+      linkSmall.appendChild(linkAnchor);
+      titleH3.appendChild(linkSmall);
+
       contentDiv.append(titleH3);
 
       for (paragraphIndex in timepoint.paragraphs) {
@@ -139,6 +151,7 @@
 
     /* The circles on the timeline */
     .timepoint::after {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
       content: '';
       position: absolute;
       width: 15px;
@@ -186,11 +199,45 @@
 
     /* The actual content */
     .content {
-      padding: 15px 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+      padding: 15px 10px 20px 25px;
       background-color: #efefef;
       position: relative;
-      border-radius: 6px;
     }
+
+    .right .content {
+      border-right: 0.5rem solid;
+    }
+
+    .left .content {
+      border-left: 0.5rem solid;
+    }
+
+    .timepoint-link{
+      text-decoration: none;
+      opacity: 1;
+    }
+
+    .content.type-bug {
+      border-image: linear-gradient(45deg,rgba(240, 37, 1, 0.75),rgba(255, 0, 0, 0.925)) 1 100%;
+    }
+    
+    .content.type-release {
+      border-image: linear-gradient(45deg, rgba(9, 170, 219, 0.75) 0%, rgba(0, 132, 255, 0.75)) 1 100%;
+    }
+
+    .content.type-company {
+      border-image: linear-gradient(45deg, rgba(219, 250, 15, 0.75) 0%, rgba(176, 238, 4, 0.75)) 1 100%;  
+    }
+
+    .content.type-other {
+      border-image: linear-gradient(45deg, rgba(10, 226, 179, 0.75) 0%, rgba(5, 245, 185, 0.75)) 1 100%; 
+    }
+
+    .content.type-post {
+      border-image: linear-gradient(45deg, rgba(126, 126, 126, 0.75) 0%, rgba(85, 85, 85, 0.75)) 1 100%; 
+    }
+
   </style>
 
 
