@@ -184,7 +184,7 @@
     "type": "post",
     "title": "12th December 2010: Final post from Satoshi",
     "paragraphs": [
-      "Final post from Satoshi to bitcointalk.org. He adds some DoS limits and removes the previously introduced alert system.",
+      "Final post from Satoshi to bitcointalk.org. He adds some DoS limits and removes the previously introduced alert system safe mode.",
       "»There's more work to do on DoS, but I'm doing a quick build of what I have so far in case it's needed, before venturing into more complex ideas.  The build for this is version 0.3.19.«"
     ],
     "links": [
@@ -451,7 +451,7 @@
     "type":"other",
     "title": "15th April 2015: MIT DCI founded",
     "paragraphs": [
-      "The MIT Media Lab launches the Digital Currency Initiative (DCI). DCi is a research community focused on cryptocurrency and blockchain technology."
+      "The MIT Media Lab launches the Digital Currency Initiative (DCI). DCI is a research community focused on cryptocurrency and blockchain technology."
     ],
     "links": [
       {
