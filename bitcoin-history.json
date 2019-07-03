@@ -530,7 +530,7 @@
     "type":"release",
     "title": "23th August 2016: Bitcoin Core v0.13.0 released",
     "paragraphs": [
-      "Includes preparatory changes for segwit, Compact blocks, mempool fee-based filtering, HD wallet support, and CPFP transaction selection."
+      "Includes preparatory changes for segwit, Compact blocks, mempool fee-based filtering, HD wallet support, and CPFP transaction selection.#2017-other-segwit-activated"
     ],
     "links": [
       {
@@ -626,7 +626,7 @@
   },{
     "id": "2018-release-0-17-0",
     "type":"release",
-    "title": "3rd October 2018: Bitcoin Core v0.18.0 released",
+    "title": "3rd October 2018: Bitcoin Core v0.17.0 released",
     "paragraphs": [
       "This release adds features to the wallet. One being support for Partially Signed Bitcoin Transactions (PSBT)."
     ],
