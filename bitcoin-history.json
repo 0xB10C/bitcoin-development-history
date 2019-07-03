@@ -40,7 +40,7 @@
     "title": "Between 3rd and 9th January 2009: Genesis Block minted",
     "paragraphs": [
       "The Genesis block is mined with a timestamp of Jan 9th.",
-      "The coinbase containing the famouse words: »The Times 03/Jan/2009 Chancellor on brink of second bailout for banks«."
+      "The coinbase containing the famous words: »The Times 03/Jan/2009 Chancellor on brink of second bailout for banks«."
     ],
     "links": [
       {
@@ -143,7 +143,7 @@
       }
     ]
   },{
-    "id": "2010-release-multipile-0-3-xx",
+    "id": "2010-release-multiple-0-3-xx",
     "type": "release",
     "title": "Throughout the sommer of 2010",
     "paragraphs": [
@@ -293,7 +293,7 @@
     "title": "November 2011 - April 2012: Work on P2SH and other",
     "paragraphs": [
       "Work on various proposals (OP_EVAL/P2SH/OP_CHV) to allow the receiver of a transaction to specify the script needed to spend it.",
-      "P2SH choosen to be implemented in Bitcoin-Qt v0.5.4. Both other proposals are discarded." 
+      "P2SH chosen to be implemented in Bitcoin-Qt v0.5.4. Both other proposals are discarded." 
     ],
     "links": [
       {
@@ -491,7 +491,7 @@
     "type":"other",
     "title": "3rd Febrary 2016: BIP 2 created",
     "paragraphs": [
-      "Luke Dashjr creates BIP2 in which he proposed a more well-defined and clear BIP process. The proposal is adoped by the community."
+      "Luke Dashjr creates BIP2 in which he proposed a more well-defined and clear BIP process. The proposal is adopted by the community."
     ],
     "links": [
       {
@@ -582,7 +582,7 @@
     "type":"release",
     "title": "14th September 2017: v0.15 released",
     "paragraphs": [
-      "This release includes a better fee estimates, support for fee bumping in the GUI, multiwallet functionallity and the script cache."
+      "This release includes a better fee estimates, support for fee bumping in the GUI, multiwallet functionality and the script cache."
     ],
     "links": [
       {
