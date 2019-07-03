@@ -447,6 +447,20 @@
       }
     ]
   },{
+    "id": "2015-other-lightning-whitepaper",
+    "type":"other",
+    "title": "Febuary 2015: Lightning whitepaper released",
+    "paragraphs": [
+      "Joseph Poon and Thaddeus Dryja release the first draft of the Lightning Network Whitepaper.",
+      "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments"
+    ],
+    "links": [
+      {
+        "label": "lightning-network-paper.pdf",
+        "link": "https://lightning.network/lightning-network-paper.pdf"
+      }
+    ]
+  },{
     "id": "2015-other-mit-dci",
     "type":"other",
     "title": "15th April 2015: MIT DCI founded",
@@ -470,20 +484,6 @@
       {
         "label": "release notes",
         "link": "https://bitcoin.org/en/release/v0.11.0"
-      }
-    ]
-  },{
-    "id": "2016-other-lightning-whitepaper",
-    "type":"other",
-    "title": "14th January 2016: Lightning whitepaper released",
-    "paragraphs": [
-      "Joseph Poon and Thaddeus Dryja release the Lightning Whitepaper.",
-      "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments"
-    ],
-    "links": [
-      {
-        "label": "lightning-network-paper.pdf",
-        "link": "https://lightning.network/lightning-network-paper.pdf"
       }
     ]
   },{
