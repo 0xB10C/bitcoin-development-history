@@ -637,6 +637,19 @@
       }
     ]
   },{
+    "id": "2019-company-squarecrypto",
+    "type":"company",
+    "title": "20th March 2019: Square Crypto announced",
+    "paragraphs": [
+      "@jack announces that Square Crypto is hiring 3-4 engineers and one designer to work full-time on open source contributions to the bitcoin ecosystem."
+    ],
+    "links": [
+      {
+        "label": "tweet",
+        "link": "https://twitter.com/jack/status/1108487911802966017"
+      }
+    ]
+  },{
     "id": "2019-release-0-18-0",
     "type":"release",
     "title": "2nd May 2019: Bitcoin Core v0.18.0 released",
