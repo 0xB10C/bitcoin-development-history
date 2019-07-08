@@ -13,7 +13,7 @@ The data contained in the `bitcoin-history.json` file is licensed under a <a rel
 
 A example usage can be found in this [blog post](https://b10c.me/The-incomplete-history-of-Bitcoin-development/).
 
-Most points on the timeline are adopted from a talk [John Newberry](https://twitter.com/jfnewbery) gave on the [History and Philosophy of Bitcoin Development](https://www.meetup.com/BitDevsNYC/events/262321510/). 
+Most points on the timeline are adopted from a talk [John Newbery](https://twitter.com/jfnewbery) gave on the [History and Philosophy of Bitcoin Development](https://www.meetup.com/BitDevsNYC/events/262321510/). 
 
 ## Formatting
 

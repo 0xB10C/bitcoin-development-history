@@ -20,8 +20,7 @@
     "title": "1st November 2008: Bitcoin paper published",
     "paragraphs": [
       "Satoshi Nakamoto announces Bitcoin on the Cryptography mailing list:",
-      "»I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.«",
-      "Bitcoin: A Peer-to-Peer Electronic Cash System"
+      "»I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.«"
     ],
     "links": [
       {
@@ -29,7 +28,7 @@
         "link": "https://satoshi.nakamotoinstitute.org/emails/cryptography/1/"
       },
       {
-        "label": "bitcoin.pdf",
+        "label": "whitepaper",
         "link": "https://www.bitcoin.org/bitcoin.pdf"
       }
     ]
@@ -37,14 +36,14 @@
   { 
     "id": "2009-other-genesis-block",
     "type": "other",
-    "title": "Between 3rd and 9th January 2009: Genesis Block minted",
+    "title": "Between 3rd and 9th January 2009: Genesis Block mined",
     "paragraphs": [
       "The Genesis block is mined with a timestamp of Jan 9th.",
-      "The coinbase containing the famous words: »The Times 03/Jan/2009 Chancellor on brink of second bailout for banks«."
+      "The coinbase contains the famous words: »The Times 03/Jan/2009 Chancellor on brink of second bailout for banks«."
     ],
     "links": [
       {
-        "label": "on explorer",
+        "label": "block explorer",
         "link": "https://blockstream.info/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"
       },
       {
@@ -59,7 +58,7 @@
     "title": "9th January 2009: Bitcoin v0.1 is announced",
     "paragraphs": [
       "Satoshi Nakamoto writes on the cryptography mailing list:",
-      "»Announcing the first release of Bitcoin, a new electronic cash system that uses a peer-to-peer network to prevent double-spending. It's completely decentralized with no server or central authority."
+      "»Announcing the first release of Bitcoin, a new electronic cash system that uses a peer-to-peer network to prevent double-spending. It's completely decentralized with no server or central authority.«"
     ],
       "links": [
       {
@@ -72,7 +71,7 @@
     "type": "release",
     "title": "16th December 2009: Bitcoin v0.2.0 released",
     "paragraphs": [
-      "A user called Martti Malmi (sirius-m) adds initial support for Linux. Other new features include mining on multiple CPU cores and initial tor proxy support."
+      "Martti Malmi (sirius-m) adds initial support for Linux. Other new features include mining on multiple CPU cores and initial tor proxy support."
     ],
       "links": [
       {
@@ -111,7 +110,7 @@
     "type": "release",
     "title": "17th July 2010: Bitcoin v0.3.2 released",
     "paragraphs": [
-      "Satoshi adds checkpoints as a security safeguard that locks a block height to a specific hash. He writes: ",
+      "Satoshi adds checkpoints as a security safeguard that lock a block height to a specific hash. He writes: ",
       "»I'll probably put a checkpoint in each version from now on.  Once the software has settled what the widely accepted block chain is, there's no point in leaving open the unwanted non-zero possibility of revision months later.«"
     ],
     "links": [
@@ -225,7 +224,7 @@
     "type": "other",
     "title": "March-June 2011: New contributors join",
     "paragraphs": [
-      "New contributors start working on the project. Some of them are for example TheBlueMatt (March 3), sipa (March 12), laanwj (May 15) and gmaxwell (June 18). Their first pull requests are listed below."
+      "Several new contributors start working on the project: TheBlueMatt (March 3), sipa (March 12), laanwj (May 15) and gmaxwell (June 18). Their first pull requests are listed below."
     ],
     "links": [
       {
@@ -290,10 +289,10 @@
   },{
     "id": "2011-other-p2sh",
     "type": "other",
-    "title": "November 2011 - April 2012: Work on P2SH and other",
+    "title": "November 2011 - April 2012: Work on P2SH and other proposals",
     "paragraphs": [
       "Work on various proposals (OP_EVAL/P2SH/OP_CHV) to allow the receiver of a transaction to specify the script needed to spend it.",
-      "P2SH chosen to be implemented in Bitcoin-Qt v0.5.4. Both other proposals are discarded." 
+      "P2SH is implemented in Bitcoin-Qt v0.5.4. Both other proposals are discarded." 
     ],
     "links": [
       {
@@ -322,7 +321,7 @@
     "type": "release",
     "title": "30th March 2012: Bitcoin-QT v0.6 released",
     "paragraphs": [
-      "Features include are for example QR codes for addresses, a implementaion of BIP30 (a security fix for an attack involving duplicate coinbase transactions) and fixes for memory related denial-of-service attacks."
+      "Features include QR codes for addresses, an implementaion of BIP30 (a security fix for an attack involving duplicate coinbase transactions) and fixes for memory related denial-of-service attacks."
     ],
     "links": [
       {
@@ -335,7 +334,7 @@
     "type": "release",
     "title": "17th September 2012: Bitcoin-QT v0.7 released",
     "paragraphs": [
-      "Includes implemention of BIP 22, BIP 34 and BIP 35 and additonally a lot of changes in the GUI and for the networking RPC code."
+      "Includes implemention of BIP 22, BIP 34 and BIP 35 and many changes in the GUI and networking RPC code."
     ],
     "links": [
       {
@@ -348,7 +347,7 @@
     "type": "other",
     "title": "27th September 2012: Bitcoin Foundation announced",
     "paragraphs": [
-      "Gavin Andresen announces the Bitcoin Foundation. People fear that the foundation will lead to a centralization of Bitcoin."
+      "Gavin Andresen announces the Bitcoin Foundation."
     ],
     "links": [
       {
@@ -361,7 +360,7 @@
     "type": "release",
     "title": "19th February 2013: Bitcoin-QT v0.8 released",
     "paragraphs": [
-      "This release migrates the blockchain storage from BerkleyDB to LevelDB. Additionally the UTXO-set or chainstate is seperated from the blocks by a functionallity called ultraprune developed by sipa (Pieter Wuillie)."
+      "This release migrates the blockchain storage from BerkleyDB to LevelDB. Ultraprune is implemented by sipa (Pieter Wuille), separating the UTXO set from the blockchain database."
     ],
     "links": [
       {
@@ -374,7 +373,7 @@
     "type": "bug",
     "title": "11th March 2013: Unexpected hardfork",
     "paragraphs": [
-      "A unexpected hardfork occured where pre-v0.8 nodes forked of v0.8 nodes. "
+      "An unexpected hardfork occurs, splitting v0.8 from pre-v0.8 nodes."
     ],
     "links": [
       {
@@ -403,7 +402,7 @@
     "type": "release",
     "title": "19th March 2014: Bitcoin Core v0.9 released",
     "paragraphs": [
-      "New features include OP_RETURN as a way to include data in blockchain while marking the UTXOs as unspendable. Additionally autotools is now used as the build system, bitcoin-cli is introduced as a RPC-client to communicate to the bitcoind deamon."
+      "New features include OP_RETURN as a way to include data in blockchain while marking the UTXOs as unspendable. Additionally autotools is used as the build system and bitcoin-cli is introduced as an RPC-client."
     ],
     "links": [
       {
@@ -414,7 +413,7 @@
   },{
     "id": "2014-company-chaincode",
     "type": "company",
-    "title": "Sometime in 2014: Chaincode Labs funded",
+    "title": "Sometime in 2014: Chaincode Labs founded",
     "paragraphs": [
       "Alex Morcos and Suhas Daftuar found Chiancode Labs in 2014 to create a place for engineers and scientists to support the development of decentralized digital currencies."
     ],
@@ -438,7 +437,7 @@
     "type":"release",
     "title": "16th Febuary 2015: Bitcoin Core v0.10.0 released.",
     "paragraphs": [
-      "Notable features include headers-first synchronization, the REST interface, the bitcoin-tx utility to create and manipulate transactions and a lot more."
+      "Notable features include headers-first synchronization, the REST interface, and the bitcoin-tx utility to create and manipulate transactions."
     ],
     "links": [
       {
@@ -451,8 +450,7 @@
     "type":"other",
     "title": "Febuary 2015: Lightning whitepaper released",
     "paragraphs": [
-      "Joseph Poon and Thaddeus Dryja release the first draft of the Lightning Network Whitepaper.",
-      "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments"
+      "Joseph Poon and Thaddeus Dryja release the first draft of the Lightning Network Whitepaper."
     ],
     "links": [
       {
@@ -530,7 +528,7 @@
     "type":"release",
     "title": "23th August 2016: Bitcoin Core v0.13.0 released",
     "paragraphs": [
-      "Includes preparatory changes for segwit, Compact blocks, mempool fee-based filtering, HD wallet support, and CPFP transaction selection.#2017-other-segwit-activated"
+      "Includes preparatory changes for segwit, Compact blocks, mempool fee-based filtering, HD wallet support, and CPFP transaction selection."
     ],
     "links": [
       {
@@ -604,11 +602,11 @@
       }
     ]
   },{
-    "id": "2017-other-segwit-activated",
+    "id": "2017-other-segwit-activates",
     "type":"other",
-    "title": "24th August 2017: SegWit activated",
+    "title": "24th August 2017: SegWit activates",
     "paragraphs": [
-      "SegWit gets activated on Bitcoin mainnet."
+      "SegWit activates on Bitcoin mainnet."
     ]
   },{
     "id": "2018-release-0-16-0",
@@ -641,7 +639,7 @@
     "type":"company",
     "title": "20th March 2019: Square Crypto announced",
     "paragraphs": [
-      "@jack announces that Square Crypto is hiring 3-4 engineers and one designer to work full-time on open source contributions to the bitcoin ecosystem."
+      "Jack Dorsey announces that Square Crypto is hiring 3-4 engineers and one designer to work full-time on open source contributions to the bitcoin ecosystem."
     ],
     "links": [
       {
@@ -667,7 +665,7 @@
     "type":"post",
     "title": "6th May 2019: Taproot proposed",
     "paragraphs": [
-      "Pieter Wuille proposes taproot which brings improvements to privacy, efficiency, and flexibility of Bitcoin smart contracts."
+      "Pieter Wuille releases BIPs to implement Schnorr signatures and taproot in Bitcoin, bringing improvements to privacy, efficiency, and flexibility of Bitcoin smart contracts."
     ],
     "links": [
       {
