@@ -12,7 +12,7 @@ When using the data, please attribute this project.
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
 
-I've used this timeline for my blog post [The incomplete history of Bitcoin development](https://b10c.me/The-incomplete-history-of-Bitcoin-development/).
+I've used this timeline in my blog post [The incomplete history of Bitcoin development](https://b10c.me/The-incomplete-history-of-Bitcoin-development/).
 
 
 ## Formatting
