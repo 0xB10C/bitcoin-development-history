@@ -673,5 +673,18 @@
         "link": "https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-May/016914.html"
       }
     ]
+  },{
+    "id": "2019-release-0-18-1",
+    "type":"release",
+    "title": "9nd August 2019: Bitcoin Core v0.18.1 released",
+    "paragraphs": [
+      "This minor release includes new features, various bug fixes and performance improvements, as well as updated translations."
+    ],
+    "links": [
+      {
+        "label": "release notes",
+        "link": "https://bitcoincore.org/en/releases/0.18.1/"
+      }
+    ]
   }
 ]
