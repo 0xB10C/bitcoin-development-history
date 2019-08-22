@@ -676,7 +676,7 @@
   },{
     "id": "2019-release-0-18-1",
     "type":"release",
-    "title": "9nd August 2019: Bitcoin Core v0.18.1 released",
+    "title": "9th August 2019: Bitcoin Core v0.18.1 released",
     "paragraphs": [
       "This minor release includes new features, various bug fixes and performance improvements, as well as updated translations."
     ],
@@ -684,6 +684,22 @@
       {
         "label": "release notes",
         "link": "https://bitcoincore.org/en/releases/0.18.1/"
+      }
+    ]
+  },{
+    "id": "2019-post-miniscript",
+    "type":"post",
+    "title": "19th August 2019: Miniscript announced",
+    "paragraphs": [
+      "Pieter Wuille announces Miniscript, a language designed to make programming in Bitcoin SCRIPT more approachable."
+    ],
+    "links": [
+      {
+        "label": "mailing list post",
+        "link": "https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-August/017270.html"
+      },{
+        "label": "project page",
+        "link": "http://bitcoin.sipa.be/miniscript/"
       }
     ]
   }
