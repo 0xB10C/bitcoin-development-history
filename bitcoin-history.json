@@ -702,5 +702,18 @@
         "link": "http://bitcoin.sipa.be/miniscript/"
       }
     ]
+  },{
+    "id": "2019-release-0-19-0-1",
+    "type":"release",
+    "title": "24th November 2019: Bitcoin Core v0.19.0.1 released",
+    "paragraphs": [
+      "This release includes new features, various bug fixes and performance improvements, as well as updated translations."
+    ],
+    "links": [
+      {
+        "label": "release notes",
+        "link": "https://bitcoin.org/en/release/v0.19.0.1"
+      }
+    ]
   }
 ]
