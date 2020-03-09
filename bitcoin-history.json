@@ -715,5 +715,18 @@
         "link": "https://bitcoin.org/en/release/v0.19.0.1"
       }
     ]
+  },{
+    "id": "2020-release-0-19-1-0",
+    "type":"release",
+    "title": "9th March 2020: Bitcoin Core v0.19.1. released",
+    "paragraphs": [
+      "This release various bug fixes and performance improvements."
+    ],
+    "links": [
+      {
+        "label": "release notes",
+        "link": "https://bitcoincore.org/en/releases/0.19.1/"
+      }
+    ]
   }
 ]
