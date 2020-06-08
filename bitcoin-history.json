@@ -728,5 +728,18 @@
         "link": "https://bitcoincore.org/en/releases/0.19.1/"
       }
     ]
+  },{
+    "id": "2020-release-0-20-0",
+    "type":"release",
+    "title": "3rd June 2020: Bitcoin Core v0.20.0. released",
+    "paragraphs": [
+      "This release various bug fixes and performance improvements."
+    ],
+    "links": [
+      {
+        "label": "release notes",
+        "link": "https://bitcoincore.org/en/releases/0.20.0/"
+      }
+    ]
   }
 ]
