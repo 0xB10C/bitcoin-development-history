@@ -741,5 +741,18 @@
         "link": "https://bitcoincore.org/en/releases/0.20.0/"
       }
     ]
+  },{
+    "id": "2020-release-0-20-1",
+    "type":"release",
+    "title": "1st August 2020: Bitcoin Core v0.20.1 released",
+    "paragraphs": [
+      "A minor release including changes regarding misbehaving peers, walletnotify and PSBTs which now contain the witness and non-witness UTXO."
+    ],
+    "links": [
+      {
+        "label": "release notes",
+        "link": "https://bitcoin.org/en/release/v0.20.1"
+      }
+    ]
   }
 ]
