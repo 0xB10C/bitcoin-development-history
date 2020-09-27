@@ -718,7 +718,7 @@
   },{
     "id": "2020-release-0-19-1-0",
     "type":"release",
-    "title": "9th March 2020: Bitcoin Core v0.19.1. released",
+    "title": "9th March 2020: Bitcoin Core v0.19.1 released",
     "paragraphs": [
       "This release various bug fixes and performance improvements."
     ],
@@ -731,7 +731,7 @@
   },{
     "id": "2020-release-0-20-0",
     "type":"release",
-    "title": "3rd June 2020: Bitcoin Core v0.20.0. released",
+    "title": "3rd June 2020: Bitcoin Core v0.20.0 released",
     "paragraphs": [
       "This release various bug fixes and performance improvements."
     ],
