@@ -754,5 +754,33 @@
         "link": "https://bitcoin.org/en/release/v0.20.1"
       }
     ]
+  },{
+    "id": "2020-company-grants",
+    "type":"company",
+    "title": "2020: Development grants for Bitcoin projects and individual contributors.",
+    "paragraphs": [
+      "Companies, including BitMEX, Square Crypto, OKCoin, BTSE, Kraken, the Human Rights Fundation, Paradigm, and Coinbase, give out development grants to Bitcoin projects and individuals."
+    ],
+    "links": [
+      {
+        "label": "Square Crypto Grants",
+        "link": "https://squarecrypto.org/#grants"
+      },{
+        "label": "BitMEX Grants",
+        "link": "https://blog.bitmex.com/grants/"
+      },{
+        "label": "OKCoin Grants",
+        "link": "https://developergrant.okcoin.com/"
+      },{
+        "label": "Coinbase Grants",
+        "link": "https://blog.coinbase.com/announcing-our-first-bitcoin-core-developer-grants-3d88559db068"
+      },{
+        "label": "Polylunar Grant Tracker",
+        "link": "https://polylunar.com/bitcoin-grants-tracker/"
+      },{
+        "label": "Bitcoin Words Grant Tracker",
+        "link": "https://bitcoinwords.github.io/grants/"
+      }
+    ]
   }
 ]
