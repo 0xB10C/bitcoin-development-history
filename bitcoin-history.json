@@ -9,7 +9,11 @@
     ],
     "links": [
       {
-        "label": "e-mail",
+        "label": "e-mail (metzdowd.com)",
+        "link": "https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html"
+      },
+      {
+        "label": "e-mail (nakamotoinstitute.org)",
         "link": "http://satoshi.nakamotoinstitute.org/emails/cryptography/15/#selection-101.55-103.36"
       }
     ]
@@ -24,7 +28,11 @@
     ],
     "links": [
       {
-        "label": "e-mail",
+        "label": "e-mail (metzdowd.com)",
+        "link": "https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html"
+      },
+      {
+        "label": "e-mail (nakamotoinstitute.org)",
         "link": "https://satoshi.nakamotoinstitute.org/emails/cryptography/1/"
       },
       {
