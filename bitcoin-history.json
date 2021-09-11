@@ -584,6 +584,13 @@
       }
     ]
   },{
+    "id": "2017-other-segwit-activates",
+    "type":"other",
+    "title": "24th August 2017: SegWit activates",
+    "paragraphs": [
+      "SegWit activates on Bitcoin mainnet."
+    ]
+  },{
     "id": "2017-release-0-15-0",
     "type":"release",
     "title": "14th September 2017: v0.15 released",
@@ -608,13 +615,6 @@
         "label": "release notes",
         "link": "https://bitcoincore.org/en/2017/11/11/release-0.15.1/"
       }
-    ]
-  },{
-    "id": "2017-other-segwit-activates",
-    "type":"other",
-    "title": "24th August 2017: SegWit activates",
-    "paragraphs": [
-      "SegWit activates on Bitcoin mainnet."
     ]
   },{
     "id": "2018-release-0-16-0",
