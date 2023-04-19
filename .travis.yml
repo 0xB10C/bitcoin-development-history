@@ -3,3 +3,4 @@ python:
   - "3.6"
 script:
   - python3 json-format-checker.py
+# Added comment - 
